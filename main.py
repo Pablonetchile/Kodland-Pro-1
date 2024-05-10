@@ -42,4 +42,7 @@ async def Adios(ctx):
     print('Desconnected')
     await bot.close()
 
+async def Que(ctx):
+    await ctx.send('SOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO')
+
 bot.run('token_aqui')
