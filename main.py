@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import random
-from aa import token
 from time import sleep
 
 intents = discord.Intents.default()
