@@ -23,7 +23,7 @@ async def heh(ctx, count_heh = 5):
 
 @bot.command()
 async def Chiste(ctx):
-    a = random.randint(0, 3)
+    a = random.randint(0, 4)
     if a == 0:
         await ctx.send('Vas a caer @lore :rage:')
     elif a == 1:
@@ -36,6 +36,9 @@ async def Chiste(ctx):
             await ctx.send('Ez')
     elif a == 3:
         await ctx.send('Ya ya mijo ya')
+    elif a == 4:
+        await ctx.send('Tienes un mensaje :VvVVvVvvV')
+
 @bot.command()
 async def Adios(ctx):
     await ctx.send('Adios :saluting_face:')
@@ -44,5 +47,5 @@ async def Adios(ctx):
 
 async def Que(ctx):
     await ctx.send('SOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO')
-
+    
 bot.run('token_aqui')
